@@ -1,7 +1,28 @@
+/* styles for all */
 body {
   font: 22px Helvetica;
   background-color: black;
   color: seashell;
   opacity: 0.9;
   text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+/* header stuff */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
 }
