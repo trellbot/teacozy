@@ -20,9 +20,37 @@ header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  background-color: black;
 }
 
 header img {
   height: 50px;
   margin-left: 10px;
 }
+
+nav {
+  margin-right: 10px;
+}
+
+nav span {
+  margin-left: 20px;
+}
+
+/* mission stuff */
+#mission {
+  position: relative;
+  top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background: url("../../resources/images/img-mission-background.jpg");
+}
+ .blurb {
+   background-color: black;
+   height: 10%;
+   width: 100%;
+ }
