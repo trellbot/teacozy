@@ -92,3 +92,30 @@ nav span {
   height: 200px;
   padding: 15px;
 }
+
+/* locations stuff */
+#locations {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+
+#locations h2 {
+  width: 100%;
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity: 1;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+}
