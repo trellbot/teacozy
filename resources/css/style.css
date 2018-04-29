@@ -15,8 +15,20 @@ h2, h3, h4, h5 {
   font-weight: bold;
 }
 h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 1.33em
+}
+h5 {
+  font-size: 0.8em;
+}
+
+.shift {
+  position: relative;
+  top: 70px;
+  display: flex;
 }
 
 /* header stuff */
@@ -47,9 +59,6 @@ nav span {
 
 /* mission stuff */
 #mission {
-  position: relative;
-  top: 70px;
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 700px;
@@ -66,3 +75,20 @@ nav span {
    justify-content: center;
    flex-direction: column;
  }
+
+ /* featured stuff */
+#featured {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: 80px auto;
+}
+#featured h2, #featured h4 {
+  width: 100%;
+  margin: 10px;
+}
+
+.featurette img {
+  width: 300px;
+  height: 200px;
+}
