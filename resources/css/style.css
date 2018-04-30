@@ -109,6 +109,11 @@ nav span {
   width: 100%;
 }
 
+.places {
+  display: flex;
+  justify-content: space-around;
+}
+
 .place {
   display: flex;
   flex-direction: column;
@@ -129,6 +134,10 @@ footer {
 
 footer * {
   margin-bottom: 40px;
+}
+
+.contact {
+  height: 200px;
 }
 
 .copy {
