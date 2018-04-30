@@ -119,3 +119,18 @@ nav span {
   height: 300px;
   margin: 0 20px;
 }
+
+/* footer stuff */
+footer {
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+footer * {
+  margin-bottom: 40px;
+}
+
+.copy {
+  text-align: left;
+}
